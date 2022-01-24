@@ -1,0 +1,47 @@
+/* BUTTON */
+
+button {
+  outline: none;
+  border: none;
+}
+
+.button {
+  display: inline-grid;
+  grid-auto-flow: column;
+  column-gap: 0.4em;
+  align-items: center;
+  width: max-content;
+
+  font-size: 16px;
+  font-family: inherit;
+
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.45em;
+  padding-bottom: 0.5em;
+
+  flex-grow: 0;
+
+  border-radius: 12px;
+
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+
+.button_filled {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.button__icon {
+  height: 24px;
+  width: 24px;
+}
+
+.button_wide {
+  width: 100%;
+}
+
+.button_center-align {
+  text-align: center;
+}
